@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: gray;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px 50px;
+    margin: 0;
+}
+header ul{
+    margin: 10px;
+    float: right;
+}
+header li{
+    display: inline;
+    margin: 0px 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header h1{
+    display: inline;
+}
+
+.content{
+    text-align: center;
+}
+
+.banner{
+    background-color: black;
+    width: 100%;
+    padding: 15% 0;
+}
+.banner h2 {
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FDF443;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.rounded-square{
+    display: inline-block;
+    background-color: #90FFD6;
+    height: 25vw;
+    width: 25vw;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 3vw;
+    border-radius: 25px;
+}
+
+.orange-box{
+    display: inline-block;
+    background-color: #FFB860;
+    height: 20vw;
+    width: 40vw;
+    max-height: 200px;
+    max-width: 400px;
+    margin: 3vw;
+}
+
+article{
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+    max-width: 300px;
+    font-family: sans-serif;
+    font-size: .8em;
+    margin: 0 9vw;
+}
+#elephant-pic{
+    width: 35vw;
+    height: auto;
+    max-width: 200px;
+    display: inline-block;
+    margin: 0 9vw;
+}
+footer {
+    background-color: #5D5674;
+    height: 10vh;
+}
